@@ -1,6 +1,6 @@
 {
   "name": "prokit-ohne-3d",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "ProKit: Codex-Plugin (auch für Claude), ohne 3D: weniger Runden, weniger Tokens, schneller in C#-Projekten",
   "type": "module",
   "private": true,
