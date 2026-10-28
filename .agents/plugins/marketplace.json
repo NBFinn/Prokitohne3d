@@ -1,0 +1,20 @@
+{
+  "name": "nbfinn-prokitohne3d",
+  "interface": {
+    "displayName": "ProKit ohne 3D (NBFinn)"
+  },
+  "plugins": [
+    {
+      "name": "prokit-ohne-3d",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}

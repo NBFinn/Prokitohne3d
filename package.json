@@ -1,0 +1,20 @@
+{
+  "name": "prokit-ohne-3d",
+  "version": "2.5.0",
+  "description": "ProKit: Codex-Plugin (auch für Claude), ohne 3D: weniger Runden, weniger Tokens, schneller in C#-Projekten",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "build": "npm run build:knowledge && npm run build:design && npm run build:claude",
+    "build:knowledge": "node scripts/build-knowledge.js",
+    "build:design": "node scripts/build-design.js",
+    "build:claude": "node scripts/build-claude.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

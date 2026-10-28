@@ -1,0 +1,15 @@
+# ProKit ohne 3D für Claude
+
+Abgeleitet aus dem Codex-Plugin in `plugin/` (`npm run build:claude`).
+
+Installieren in Claude Code:
+
+```
+/plugin install prokit-ohne-3d --marketplace NBFinn/prokitohne3d
+```
+
+- **Code Pro:** C# als Standardsprache, Senior-Engineer-Ablauf, Token-Sparwerkzeuge (map, outline, run, diff-outline, lint-cs, secrets), Projektgedächtnis in `CLAUDE.md`.
+- **Design Pro:** Farb- und Kontrastrechner als Skript (nur auf Aufruf).
+- **Token-Bilanz:** Am Ende jeder Antwort meldet der Stop-Hook den gemessenen Verbrauch, die Plugin-Kosten und die Ersparnis der Werkzeuge.
+
+Benötigt Node.js ≥ 20.

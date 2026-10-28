@@ -1,0 +1,17 @@
+{
+  "name": "nbfinn-prokitohne3d",
+  "owner": {
+    "name": "NBFinn"
+  },
+  "metadata": {
+    "description": "ProKit ohne 3D: C#-Profi, Farbrechner und Token-Bilanz für Claude"
+  },
+  "plugins": [
+    {
+      "name": "prokit-ohne-3d",
+      "source": "./dist/claude/prokit-ohne-3d",
+      "description": "C#-Profi mit Token-Sparwerkzeugen, Projektsteckbrief und ehrlicher Token-Bilanz, Farb- und Kontrastrechner.",
+      "category": "development"
+    }
+  ]
+}

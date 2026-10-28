@@ -1,0 +1,16 @@
+{
+  "name": "prokit-ohne-3d",
+  "version": "2.5.0",
+  "description": "ProKit ohne 3D: schlanker C#-Profi mit Token-Sparwerkzeugen, Projektsteckbrief, Projektgedächtnis (CLAUDE.md) und ehrlicher Token-Bilanz, Farbrechner.",
+  "author": {
+    "name": "NBFinn"
+  },
+  "homepage": "https://github.com/NBFinn/prokitohne3d",
+  "repository": "https://github.com/NBFinn/prokitohne3d",
+  "keywords": [
+    "csharp",
+    "dotnet",
+    "tokens",
+    "design"
+  ]
+}

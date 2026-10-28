@@ -1,0 +1,28 @@
+{
+  "name": "prokit-ohne-3d",
+  "version": "2.5.0",
+  "description": "ProKit ohne 3D: schlanker C#-Profi mit Token-Sparwerkzeugen, Projektsteckbrief, find, Projektgedächtnis und ehrlicher Token-Bilanz, Farbrechner.",
+  "keywords": [
+    "csharp",
+    "dotnet",
+    "coding",
+    "tokens",
+    "design",
+    "ui"
+  ],
+  "skills": "./skills",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "ProKit (ohne 3D)",
+    "shortDescription": "C# und Farbrechner, schlank",
+    "longDescription": "ProKit ohne 3D: Code Pro und Design Pro, schlank gehalten, damit es weniger Tokens kostet, als es spart. Projektsteckbrief beim Start, find statt Suchen und Lesen, verdichtete Test- und Build-Ausgaben, Farbrechner für exakte Kontraste. Die Token-Bilanz zeigt den gemessenen Verbrauch.",
+    "developerName": "NBFinn",
+    "category": "Coding",
+    "brandColor": "#7C3AED",
+    "defaultPrompt": [
+      "Lege eine AGENTS.md für dieses Repo an",
+      "Baue eine .NET-10-Web-API mit Tests und schöner Startseite",
+      "Finde und behebe den fehlschlagenden Test"
+    ]
+  }
+}
